@@ -1,5 +1,13 @@
 # DATE
 
+# Difficulty
+
+Easy
+
+My thoughts:
+
+-   Easy
+
 ## [####. PROBLEM_NAME](PROBLEM_URL)
 
 ### Problem
@@ -28,13 +36,9 @@ PUT EXAMPLE HERE
 -   **Time Complexity**: O(TIME)
 -   **Space Complexity**: O(SPACE)
 
-#### _Backside_
+#### Initial Thoughts
 
-Put a small compact description that can fit on the back of a flashcard here. It should describe your 'initial approach' and by design is rough and can be improved upon.
-
-#### Additional Details
-
-Put any additional details or detailed description of the solution here. Not meant to go on a flashcard, but should be something you refer to in the case that you don't understand your compact descriptions.
+Put some initial thoughts. How might you approach this?
 
 #### Solution Code
 
