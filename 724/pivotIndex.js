@@ -3,7 +3,6 @@ var pivotIndex = function (nums) {
     for (let i = 1; i < nums.length; i++) {
         firstSum += nums[i];
     }
-    console.log(firstSum);
 
     let j = 0;
     var secondSum = 0;

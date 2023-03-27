@@ -61,8 +61,8 @@ Right sum = nums[1] + nums[2] = 1 + -1 = 0
 
 ### Preliminary Solution
 
--   **Time Complexity**: O(TIME)
--   **Space Complexity**: O(SPACE)
+-   **Time Complexity**: O(N)
+-   **Space Complexity**: O(1)
 
 #### Initial Thoughts
 
@@ -79,7 +79,6 @@ var pivotIndex = function (nums) {
     for (let i = 1; i < nums.length; i++) {
         firstSum += nums[i];
     }
-    console.log(firstSum);
 
     let j = 0;
     var secondSum = 0;
@@ -102,19 +101,34 @@ var pivotIndex = function (nums) {
 
 ### [Best Available Solution](SOLUTION_LINK)
 
--   **Time Complexity**: O(TIME)
--   **Space Complexity**: O(SPACE)
+-   **Time Complexity**: O(N)
+-   **Space Complexity**: O(1)
 
 #### Additional Details
 
-Put any additional details or detailed description of the solution here. Not meant to go on a flashcard, but should be something you refer to in the case that you don't understand your compact descriptions.
-
 #### Solution Code
 
-```
-SOLUTION CODE GOES HERE
+```js
+function pivotIndex(nums) {
+    const totalSum = nums.reduce((acc, num) => acc + num, 0);
+    let leftSum = 0;
+
+    for (let i = 0; i < nums.length; i++) {
+        const num = nums[i];
+        if (leftSum === totalSum - leftSum - num) {
+            return i;
+        }
+        leftSum += num;
+    }
+
+    return -1;
+}
 ```
 
 #### Notes
 
--   Anything additional goes here in bullets
+-   The reduce() function is an array method in JavaScript that takes a callback function and an optional initial value as arguments, and applies the callback function to each element of the array to accumulate a single value. The accumulated value is returned after all elements have been processed.
+
+-   The callback function passed to reduce() takes two arguments: an accumulator (the accumulated value), and the current element of the array.
+
+-   Overall, using the reduce method cleans up the code a little bit and makes it more readable. But, for beginners, this may make it more difficult to understand
