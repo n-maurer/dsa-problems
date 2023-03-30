@@ -14,13 +14,13 @@ My thoughts:
 
 Copy-paste the problem here
 
-#### Example \#
+#### Example 1
 
 ```
 PUT EXAMPLE HERE
 ```
 
-#### Example \#+1..n
+#### Example 2
 
 ```
 PUT EXAMPLE HERE
