@@ -8,7 +8,7 @@ Easy
 
 My thoughts:
 
--
+-Hard. I really struggled with this
 
 ## [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/?envType=study-plan&id=level-1)
 
