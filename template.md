@@ -1,12 +1,14 @@
 # DATE
 
+# Category
+
 # Difficulty
 
 Easy
 
 My thoughts:
 
--   Easy
+-
 
 ## [####. PROBLEM_NAME](PROBLEM_URL)
 
@@ -54,14 +56,6 @@ SOLUTION CODE GOES HERE
 
 -   **Time Complexity**: O(TIME)
 -   **Space Complexity**: O(SPACE)
-
-#### _Backside_
-
-Put a small compact description of the solution that can fit on the back of a flashcard here. It should describe the best approach you can find on the internet and is an improvement over the preliminary solution.
-
-#### Additional Details
-
-Put any additional details or detailed description of the solution here. Not meant to go on a flashcard, but should be something you refer to in the case that you don't understand your compact descriptions.
 
 #### Solution Code
 
