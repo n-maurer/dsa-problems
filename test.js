@@ -1,3 +1,9 @@
-var obj = { hello: 1 };
+var removeDuplicates = function(nums) {
+    var newNums = [];
+    for (let i of nums){
+        if (newNums.includes(i) === false) newNums.push(i);
+    }return newNums;
+};
 
-console.log(String(obj));
+
+console.log(removeDuplicates([1,1,2]))
